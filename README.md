@@ -81,7 +81,7 @@ Toda la información de los endpoints se extrae de la **vista SQL llamada "trail
 
 Este es un ejemplo de código, mostrado con la ruta **/catalogo/id/:id**, donde hay comentarios línea a línea para que se pueda entender como funciona el mismo.
 
-<pre><code>
+<pre lang="javascript">
 /** (Documentación en formato JSDoc)
  * Ruta para encontrar un trailer por ID.
  *
@@ -147,4 +147,4 @@ app.get('/catalogo/id/:id', async (req, res) => {  // Ruta GET /catalogo/id/:id
         });
     };
 });
-</code></pre>
+</pre>
