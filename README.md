@@ -23,7 +23,7 @@
 + *El modelo de Sequelize para interpretar los campos que se reciben de la base de datos, se encuentra en el archivo [trailers.js](https://github.com/nicofpalma/PROYECTO3-UNTREF/blob/main/src/models/trailers.js) (src/models/trailers.js).*
 + *El archivo de configuración que contiene toda la configuración de Sequelize para conectarse a la base de datos, se encuentra en el archivo [config.js](https://github.com/nicofpalma/PROYECTO3-UNTREF/blob/main/src/config/config.js) (src/config/config.js).*
 + *El archivo .env para configurar los parámetros como DB_SCHEMA, DB_USER, PORT, etc, se espera que se encuentre dentro del directorio [src/config](https://github.com/nicofpalma/PROYECTO3-UNTREF/tree/main/src/config).*
-
++ *Adjunté el archivo [trailerflix.json](https://github.com/nicofpalma/PROYECTO3-UNTREF/blob/main/trailerflix.json) porque modifiqué algunos errores que había sobre el mismo en la información. Por ejemplo, donde aparecía el género 'Sci-Fi', lo cambié por 'Ciencia Ficción'.*
 ---
 
 ### Respuestas JSON de los endpoints
