@@ -53,7 +53,7 @@ Captura de ejemplo:
 ### Base de datos
 Toda la información de los endpoints se extrae de la **vista SQL llamada "trailers"**, donde se genera la unión de todas las tablas, para poder ver toda la información relacionada a los trailers, tal como se ve puede ver en el archivo "trailerflix.json". Luego, a esa vista se le realiza consultas con Sequelize para poder acceder a los datos.
 
-+ *Hay un archivo en donde está la gran parte de inserciones y selects que trabajé para lograr construir la base de datos por completo, [consultasProyecto3.sql](https://github.com/nicofpalma/PROYECTO3-UNTREF/blob/main/consultasProyecto3.sql).*
++ *Aquí se encuentra el script SQL para la creación e inserción de tablas en MySQL workbench, [scriptsTrailerflix.sql](https://github.com/nicofpalma/PROYECTO3-UNTREF/blob/main/scriptsTrailerflix.sql).*
 
 #### Creación de la vista trailers:
 ![Creacion de vista trailers](vista_trailers.png)
